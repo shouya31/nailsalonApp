@@ -213,6 +213,7 @@ section {
   color: #ffffff;
   font-weight: bold;
   text-align: center;
+  display: block !important;
 }
 
 .header_cta-btn .btn_entry a {
@@ -336,6 +337,7 @@ h1 img {
   color: #ffffff;
   font-weight: bold;
   text-align: center;
+  display: block !important;
 }
 
 .solution_cta-btn {
@@ -353,6 +355,16 @@ h1 img {
 section .btn_info-session,
 section .btn_entry {
   width: 180px;
+  display: block !important;
+  width: 240px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #d6bd5e;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px auto;
 }
 
 section .btn_info-session a {
