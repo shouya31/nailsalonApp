@@ -1006,12 +1006,29 @@
         </section>
         <div style="width: 40%; margin: auto;">
             <form name="contact" netlify>
+                <h3>無料説明会申し込み</h3>
                 <p>
-                  <label>Name <input type="text" name="name" /></label>
+                    <label>日程を選択して下さい
+                        　<select name="date" id="">
+                            <option>2021/5/2/ 12:00 対面（秋葉原）</option>
+                            <option>2021/5/2/ 13:00 対面（秋葉原）</option>
+                            <option>2021/5/2/ 14:00 対面（秋葉原）</option>
+                            <option>2021/5/2/ 15:00 対面（秋葉原）</option>
+                        </select>
+                    </label>
                 </p>
                 <p>
-                  <label>Email <input type="email" name="email" /></label>
+                    <label>名前<input type="text" name="name" /></label>
                 </p>
+                <p>
+                    <label>フリガナ<input type="text" name="furigana" /></label>
+                </p>
+                <p>
+                    <label>メールアドレス<input type="email" name="email" /></label>
+                </p>
+                  <p>
+                    <label>電話番号<input type="text" name="number" /></label>
+                  </p>
                 <p>
                   <button type="submit">Send</button>
                 </p>
