@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta prefix="og: http://ogp.me/ns#">
+    </meta>
+    <meta property="og:url" content="https://nail-carelist.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ネイルケアリスト養成プログラム | Nail Carelist Ltd." />
+    <meta property="og:description" content="ネイルケアリスト協会が提供する、ネイルケアリスト養成プログラムのWebサイト" />
+    <meta property="og:site_name" content="ネイルケアリスト養成プログラム | Nail Carelist Ltd." />
+    <meta property="og:image" content="https://nail-carelist.com/img/ogp.jpg" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <title>ネイルケアリスト養成プログラム | Nail Carelist Ltd.</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana&family=Noto+Serif+JP:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <header style="padding: 0px;">
+        <div class="header_wrapper" style="display: block;">
+            <nav class="is-flex">
+                <ul class="is-flex header_nav">
+                    <li><a href="/index.html/#features">特徴</a></li>
+                    <li><a href="/index.html/#instructor">講師</a></li>
+                    <li><a href="/index.html/#course">コース</a></li>
+                    <li><a href="/index.html/#fee">ご料金</a></li>
+                    <li><a href="/index.html/#career">卒業後のキャリア</a></li>
+                    <li><a href="/index.html/#schedule">スケジュール</a></li>
+                    <li><a href="/index.html/#faq">FAQ</a></li>
+                </ul>
+                <ul class="is-flex header_cta-btn">
+                    <li class="btn_info-session">
+                        <div id="information_session">無料説明会</div>
+                    </li>
+                </ul>
+                <ul class="is-flex header_sns">
+                    <li>
+                        <a href="https://page.line.me/?accountId=100udhtx" target="_blank" rel="noopener noreferrer">
+                            <img src="img/sns_line.png" alt="ネイルケアリスト協会のLINEアカウント">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/nailcarelist_ltd/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/sns_instagram.png" alt="ネイルケアリスト協会のInstagram">
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+        <button type="button" class="zdo_drawer_button">
+            <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+            <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+            <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+            <span class="zdo_drawer_menu_text zdo_drawer_text">MENU</span>
+            <span class="zdo_drawer_close zdo_drawer_text">CLOSE</span>
+        </button>
+    </header>
+
+    <section class="course">
+        <div class="course_bg">
+            <div class="section-title_wrapper">
+                <h2 id="course">目的に合わせて選べるコース</h2>
+                <span>Course</span>
+            </div>
+            <div class="section-inner">
+
+                <div class="course_care-technique course_wrapper">
+                    <div class="course-title_wrapper">
+                        <h3>ケア技術コース</h3>
+                        <p>約6ヶ月のオンライン対応コース</p>
+                    </div>
+                    <div class="course_inner">
+                        <h4>オンライン講座</h4>
+                        <dl class="course_dl">
+                            <dt>
+                                <div>
+                                    <p>技術</p>
+                                    <p>全5回</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>ハンドケア</p>
+                                <p>第1回：爪切り、ファイル（爪の適切な長さ）<br>
+                                    第2回：甘皮ケア（ニッパー・プッシャーの使い方）<br>
+                                    第3回：表面仕上げ（シャイナー・トップコート）</p>
+                                <p>フットケア</p>
+                                <p>第4回：爪切り、ファイル（爪の長さ・形）<br>
+                                    第5回：甘皮ケア、角質ケア</p>
+                            </dd>
+                            <dt>
+                                <div>
+                                    <p>知識</p>
+                                    <p>全5回</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>実際のサロンで質問される内容を学びます。<br>
+                                    基礎知識を実践で使用出来るように、施術内容の理解を深めることが目的です。</p>
+                            </dd>
+                            <dt>
+                                <div>
+                                    <p>オンライン<br>
+                                        テスト</p>
+                                    <p>全1回</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>個別採点制。<br>
+                                    定められた時間内で、実際の施術をモデルに行います。</p>
+                            </dd>
+                        </dl>
+                        <p class="fs14 mb40">オンライン講座終了後、合格者にオンライン講座合格証発行</p>
+                        <div class="btn_entry">
+                            <a
+                                href="https://checkout.square.site/merchant/MLVYEZGVK8EFM/checkout/QV4TL4DANCEMZ2RBVEL2JIHK">
+                                <div class="application_form">
+                                    お申し込み
+                                </div>
+                            </a>
+                        </div>
+                        <h4>オフライン実践講座</h4>
+                        <p>都内にて6日間のオフライン実践講習・テストを行います。</p>
+                        <p class="text-red fs14">※注意点 オフラインの講座は東京都内で実施いたします。</p>
+                        </p>
+                        <dl class="course_dl">
+                            <dt>
+                                <div>
+                                    <p>1日目</p>
+                                    <p>サロンワーク講習</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>卒業後の即戦力として実際のサロンで全てのサロン業務を実際に体験します。</p>
+                                <p>サロン業務は施術以外にも沢山あるので、1日の流れを身体で覚えていきます。</p>
+                            </dd>
+                            <dt>
+                                <div>
+                                    <p>2日目 / 3日目 / 4日目</p>
+                                    <p>手足ともにモデル講習</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>手足共に全3回。個別での技術確認で生徒様の苦手ポイントを個別に克服します。</p>
+                                <p>モデルの手・足を使う講習で、人それぞれの特徴にどのように対応していくのかを学びます。</p>
+                            </dd>
+                            <dt>
+                                <div>
+                                    <p>5日目</p>
+                                    <p>模擬テスト</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>定められた時間内で、実際の施術をモデルに行います。</p>
+                            </dd>
+                            <dt>
+                                <div>
+                                    <p>6日目</p>
+                                    <p>テスト</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>定められた時間内でテストを行います。</p>
+                            </dd>
+                        </dl>
+                        <p class="fs14">合格者にネイルケアリスト技術修了証発行</p>
+
+                        <div class="btn_entry">
+                            <a
+                                href="https://checkout.square.site/merchant/MLVYEZGVK8EFM/checkout/QV4TL4DANCEMZ2RBVEL2JIHK">
+                                <div class="application_form">
+                                    お申し込み
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course_service-technique course_wrapper">
+                    <div class="course-title_wrapper">
+                        <h3>接客コース</h3>
+                        <p>接客力・人間力を作るために必須のコース</p>
+                        <p class="text-red">※オンライン講座、オフライン実践講座合格者のみ受講可能</p>
+                    </div>
+                    <div class="course_inner">
+                        <h4>接客講座</h4>
+                        <dl class="course_dl">
+                            <dt>
+                                <div>
+                                    <p>全2回</p>
+                                    <p>オフライン受講</p>
+                                </div>
+                                <div>
+                                    <p>全4回</p>
+                                    <p>オンライン受講</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>計16時間</p>
+                                <p>社会人のコミュニケーション/人の個性を知る/商売とは/売上とは/費用と利益/KGIᆞKPI設定/基本接客/商品説明/
+                                    5段階の接客/提案の接客/信頼の接客/クレーム対応/
+                                    リーダーとしてのコミュニケーション/部下との信頼関係/
+                                    部下への教え方/部下へのメンタリング/
+                                    スタッフ同士のコミュニケーション/
+                                    経営者とのコミュニケーション/お客様とのコミュニケーション</p>
+                            </dd>
+                        </dl>
+                        <h4>マナー講座</h4>
+                        <p>講義と実践が組み込まれているので、すぐにサロンで活かせます。</p>
+                        <dl class="course_dl">
+                            <dt>
+                                <div>
+                                    <p>全2回</p>
+                                    <p>オンライン受講</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>計6時間<br>
+                                    <span class="fs10">（テスト含む）</span>
+                                </p>
+                                <p>言葉づかい/所作/身だしなみ/社会人としてのマナー</p>
+                            </dd>
+                        </dl>
+                        <p class="fs14">合格者に各講座合格証発行</p>
+                        <div class="btn_entry">
+                            <a
+                                href="https://checkout.square.site/merchant/MLVYEZGVK8EFM/checkout/QV4TL4DANCEMZ2RBVEL2JIHK">
+                                <div class="application_form">
+                                    お申し込み
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course_professional course_wrapper">
+                    <div class="course-title_wrapper">
+                        <h3>プロコース</h3>
+                    </div>
+                    <div class="course_inner">
+                        <h4>衛生講座</h4>
+                        <p>サロンで必要な衛生管理として、施術者を守るための病気への対応を学びます</p>
+                        <dl class="course_dl">
+                            <dt>
+                                <p>全2回</p>
+                                <p>オンライン受講</p>
+                            </dt>
+                            <dd>
+                                <p>計4時間<br>
+                                    <span class="fs10">（テスト含む）</span>
+                                </p>
+                            </dd>
+                        </dl>
+                        <h4>トラブルケア講座</h4>
+                        <p>特殊な爪への対応方法、施術方法を学びます</p>
+                        <dl class="course_dl">
+                            <dt>
+                                <div>
+                                    <p>全2回</p>
+                                    <p>オンライン受講</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>計4時間<br>
+                                    <span class="fs10">（テスト含む）</span>
+                                </p>
+                            </dd>
+                        </dl>
+                        <h4>美容皮膚化学講座</h4>
+                        <p>サロン販売商品の肌へのアプローチを深め、販売促進に繋げます</p>
+                        <dl class="course_dl">
+                            <dt>
+                                <div>
+                                    <p>全2回</p>
+                                    <p>オンライン受講</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>計4時間<br>
+                                    <span class="fs10">（テスト含む）</span>
+                                </p>
+                            </dd>
+                        </dl>
+                        <h4>リラクゼーション講座</h4>
+                        <p>マッサージでどのようなアプローチ方法があるか知識を深めます</p>
+                        <dl class="course_dl">
+                            <dt>
+                                <div>
+                                    <p>全2回</p>
+                                    <p>オンライン受講</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>計4時間<br>
+                                    <span class="fs10">（テスト含む）</span>
+                                </p>
+                            </dd>
+                        </dl>
+                        <p class="fs14">合格者に各講座合格証発行</p>
+                        <p class="fs14">全ての講座合格者に、ネイルケアリスト協会の卒業認定証である、ネイルケアリスト認定証を発行</p>
+                        <div class="btn_entry">
+                            <a
+                                href="https://checkout.square.site/merchant/MLVYEZGVK8EFM/checkout/QV4TL4DANCEMZ2RBVEL2JIHK">
+                                <div class="application_form">
+                                    お申し込み
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course_manager course_wrapper">
+                    <div class="course-title_wrapper">
+                        <h3>管理者コース</h3>
+                    </div>
+                    <div class="course_inner">
+                        <dl class="course_dl">
+                            <dt>
+                                <div>
+                                    <p>全2回</p>
+                                    <p>オフライン受講</p>
+                                </div>
+                                <div>
+                                    <p>全2回</p>
+                                    <p>オンライン受講</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <p>計16時間</p>
+                                <p>経営方法と実践/事業計画の作り方</p>
+                            </dd>
+                        </dl>
+                        <div class="btn_entry">
+                            <a
+                                href="https://checkout.square.site/merchant/MLVYEZGVK8EFM/checkout/QV4TL4DANCEMZ2RBVEL2JIHK">
+                                <div class="application_form">
+                                    お申し込み
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>
