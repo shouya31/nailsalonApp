@@ -1427,6 +1427,7 @@ small {
   }
   main {
     max-width: 100%;
+    display: none;
   }
   .section-inner {
     width: 95% !important;
