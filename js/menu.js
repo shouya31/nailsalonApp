@@ -1,15 +1,12 @@
-window.addEventListener("DOMContentLoaded", () => {
-  const menu = document.querySelector(".header_wrapper");
-
-  document
-    .querySelector(".zdo_drawer_button")
-    .addEventListener("click", function () {
-      console.log(menu.hasAttribute("style", "display:none;"));
-
-      if (!menu.hasAttribute("style", "display:block;")) {
-        menu.setAttribute("style", "display:block;");
-      } else {
-        menu.setAttribute("style", "display:none;");
-      }
-    });
-});
+$(function () {
+    $('.zdo_drawer_button').click(function () {
+      $(this).toggleClass('active');
+      $('.header_wrapper').fadeToggle();
+    })
+  })
+  $(function () {
+    $('.header_nav,.header_cta-btn a').click(function () {
+      $('.header_wrapper').fadeOut();
+      $('.zdo_drawer_button').toggleClass('active');
+    })
+  })

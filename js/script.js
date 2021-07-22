@@ -1,5 +1,5 @@
 
-  if (window.matchMedia('(min-width: 959px)' && !document.URL.match("/item.html/") && !document.URL.match("/form.html/")).matches) {
+  if (window.matchMedia('(min-width: 959px)' && document.URL.match("/items.html/") || document.URL.match("/form.html/")).matches) {
     $(window).on('load scroll', function(){
         if ($(window).scrollTop() > 200) {
           $('.header_wrapper').fadeIn(400);
