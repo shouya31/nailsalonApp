@@ -19,4 +19,5 @@
           $('.zdo_drawer_button').toggleClass('active');
         })
       })
+      console.log(12)
   }
